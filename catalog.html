@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zoomarket</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic,cyrillic-ext">
 	<link rel="stylesheet" href="css/main.css">
@@ -21,10 +22,10 @@
 				<img src="i/logo.png" alt="">
 				<span class="slogan"><span class="slogan__colored">ЗОО</span>МАРКЕТ</span>
 			</a>
-			<form action="">
+			<form>
 				<a href="#" class="header__search--mobile"></a>
 				<div class="header__search">
-					<select name="" id="" class="header__search-category" data-placeholder="Категория">
+					<select class="header__search-category" data-placeholder="Категория">
 						<option value=""></option>
 						<option value="">Собаки</option>
 						<option value="">Коты</option>
@@ -32,7 +33,7 @@
 						<option value="">Рыбы</option>
 						<option value="">Рептилии</option>
 					</select>
-					<input type="text" name="" id="" class="header__search-text" value="">
+					<input type="text" class="header__search-text" value="">
 					<button type="submit" class="header__search-btn"></button>
 				</div>
 			</form>
@@ -41,6 +42,7 @@
 			<div class="header__phone">
 				<p class="header__phone-number"><span class="header__phone-prefix">8</span> 812 800 80 80</p>
 				<p class="header__phone-city">Санкт-Петербург</p>
+				<a href="tel:+78128008080" class="header__phone-link"></a>
 			</div>
 			<div class="header__pluses">
 				<div class="header__plus header__plus--assortment">
@@ -239,7 +241,7 @@
 					<p class="filter__title filter__title--opened">Порода</p>
 					<div class="filter__content filter__content--active">
 						<div class="filter__search">
-							<input type="text" name="" id="" class="filter__search-input" placeholder="Начните вводить породу">
+							<input type="text" class="filter__search-input" placeholder="Начните вводить породу">
 							<div class="filter__notFound">
 								Ничего не найдено
 							</div>
@@ -327,7 +329,7 @@
 					<p class="filter__title filter__title--opened">Бренд</p>
 					<div class="filter__content filter__content--active">
 						<div class="filter__search">
-							<input type="text" name="" id="" class="filter__search-input" placeholder="Начните вводить название">
+							<input type="text" class="filter__search-input" placeholder="Начните вводить название">
 							<div class="filter__notFound">
 								Ничего не найдено
 							</div>
@@ -369,7 +371,7 @@
 					<a href="#" class="catalog__sort-item catalog__sort-item--active">популярности</a>
 					<a href="#" class="catalog__sort-item catalog__sort-item--desc">цене</a>
 					<a href="#" class="catalog__sort-item catalog__sort-item--asc">цене</a>
-					<select name="" id="" class="select catalog__sort-select">
+					<select class="select catalog__sort-select">
 						<option value="">популярности</option>
 						<option value="">цене (убыв)</option>
 						<option value="">цене (возр)</option>
@@ -390,7 +392,7 @@
 									<div class="catalog__label catalog__label--new">Новинка</div>
 									<div class="catalog__label catalog__label--discount">Скидка</div>
 								</div>
-								<div class="catalog__stock">Наличие: <span class="catalog__stock--yes">Есть</span></div>
+								<div class="catalog__stock">Наличие: <span class="catalog__stock--no">Нет</span></div>
 								<a href="#" class="catalog__name">Название товара в 2 строки максимум</a>
 								<div class="clear">
 									<div class="catalog__cost l"><span class="catalog__cost--old">15050 р.</span> 10050 р.</div>
@@ -405,14 +407,14 @@
 								</div>
 								<div class="catalog__addToCart">
 									<div class="catalog__addToCart-item">
-										<select name="" id="" class="select">
+										<select class="select">
 											<option value="">300 гр.</option>
 											<option value="">400 гр.</option>
 											<option value="">500 гр.</option>
 										</select>
 									</div>
 									<div class="catalog__addToCart-item rel">
-										<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+										<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 										<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 										<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 									</div>
@@ -444,14 +446,14 @@
 								</div>
 								<div class="catalog__addToCart">
 									<div class="catalog__addToCart-item">
-										<select name="" id="" class="select">
+										<select class="select">
 											<option value="">300 гр.</option>
 											<option value="">400 гр.</option>
 											<option value="">500 гр.</option>
 										</select>
 									</div>
 									<div class="catalog__addToCart-item rel">
-										<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+										<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 										<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 										<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 									</div>
@@ -483,14 +485,14 @@
 								</div>
 								<div class="catalog__addToCart">
 									<div class="catalog__addToCart-item">
-										<select name="" id="" class="select">
+										<select class="select">
 											<option value="">300 гр.</option>
 											<option value="">400 гр.</option>
 											<option value="">500 гр.</option>
 										</select>
 									</div>
 									<div class="catalog__addToCart-item rel">
-										<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+										<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 										<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 										<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 									</div>
@@ -522,14 +524,14 @@
 								</div>
 								<div class="catalog__addToCart">
 									<div class="catalog__addToCart-item">
-										<select name="" id="" class="select">
+										<select class="select">
 											<option value="">300 гр.</option>
 											<option value="">400 гр.</option>
 											<option value="">500 гр.</option>
 										</select>
 									</div>
 									<div class="catalog__addToCart-item rel">
-										<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+										<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 										<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 										<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 									</div>
@@ -561,14 +563,14 @@
 								</div>
 								<div class="catalog__addToCart">
 									<div class="catalog__addToCart-item">
-										<select name="" id="" class="select">
+										<select class="select">
 											<option value="">300 гр.</option>
 											<option value="">400 гр.</option>
 											<option value="">500 гр.</option>
 										</select>
 									</div>
 									<div class="catalog__addToCart-item rel">
-										<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+										<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 										<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 										<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 									</div>
@@ -600,14 +602,14 @@
 								</div>
 								<div class="catalog__addToCart">
 									<div class="catalog__addToCart-item">
-										<select name="" id="" class="select">
+										<select class="select">
 											<option value="">300 гр.</option>
 											<option value="">400 гр.</option>
 											<option value="">500 гр.</option>
 										</select>
 									</div>
 									<div class="catalog__addToCart-item rel">
-										<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+										<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 										<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 										<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 									</div>
@@ -686,7 +688,7 @@
 		<p class="modal__title">Закажите обратный звонок</p>
 		<form class="modal__content">
 			<div class="form__row">
-				<input type="text" name="" id="" class="input-text" placeholder="Ваш номер телефона">
+				<input type="text" class="input-text" placeholder="Ваш номер телефона">
 			</div>
 			<div class="modal__btn">
 				<button class="btn">Заказать</button>
@@ -698,13 +700,13 @@
 		<p class="modal__title">Напишите нам</p>
 		<form class="modal__content">
 			<div class="form__row">
-				<input type="text" name="" id="" class="input-text" placeholder="Ваше имя">
+				<input type="text" class="input-text" placeholder="Ваше имя">
 			</div>
 			<div class="form__row">
-				<input type="email" name="" id="" class="input-text" placeholder="Email">
+				<input type="email" class="input-text" placeholder="Email">
 			</div>
 			<div class="form__row">
-				<textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Сообщение"></textarea>
+				<textarea cols="30" rows="10" class="textarea" placeholder="Сообщение"></textarea>
 			</div>
 			<div class="modal__btn">
 				<a href="#" class="modal__clear js-form-clear">Очистить форму</a>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zoomarket</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic,cyrillic-ext">
 	<link rel="stylesheet" href="css/main.css">
@@ -21,18 +22,18 @@
 				<img src="i/logo.png" alt="">
 				<span class="slogan"><span class="slogan__colored">ЗОО</span>МАРКЕТ</span>
 			</a>
-			<form action="">
+			<form>
 				<a href="#" class="header__search--mobile"></a>
 				<div class="header__search">
-					<select name="" id="" class="header__search-category" data-placeholder="Категория">
-						<option value=""></option>
+					<select class="header__search-category" data-placeholder="Категория">
+						<option></option>
 						<option value="">Собаки</option>
 						<option value="">Коты</option>
 						<option value="">Грызуны</option>
 						<option value="">Рыбы</option>
 						<option value="">Рептилии</option>
 					</select>
-					<input type="text" name="" id="" class="header__search-text" value="">
+					<input type="text" class="header__search-text" value="">
 					<button type="submit" class="header__search-btn"></button>
 				</div>
 			</form>
@@ -41,6 +42,7 @@
 			<div class="header__phone">
 				<p class="header__phone-number"><span class="header__phone-prefix">8</span> 812 800 80 80</p>
 				<p class="header__phone-city">Санкт-Петербург</p>
+				<a href="tel:+78128008080" class="header__phone-link"></a>
 			</div>
 			<div class="header__pluses">
 				<div class="header__plus header__plus--assortment">
@@ -199,7 +201,7 @@
 							<div class="catalog__label catalog__label--new">Новинка</div>
 							<div class="catalog__label catalog__label--discount">Скидка</div>
 						</div>
-						<div class="catalog__stock">Наличие: <span class="catalog__stock--yes">Есть</span></div>
+						<div class="catalog__stock">Наличие: <span class="catalog__stock--no">Нет</span></div>
 						<a href="#" class="catalog__name">Название товара в 2 строки максимум</a>
 						<div class="clear">
 							<div class="catalog__cost l">1050 р.</div>
@@ -214,14 +216,14 @@
 						</div>
 						<div class="catalog__addToCart">
 							<div class="catalog__addToCart-item">
-								<select name="" id="" class="js-newest-select">
+								<select class="js-newest-select">
 									<option value="">300 гр.</option>
 									<option value="">400 гр.</option>
 									<option value="">500 гр.</option>
 								</select>
 							</div>
 							<div class="catalog__addToCart-item rel">
-								<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+								<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 								<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 								<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 							</div>
@@ -251,14 +253,14 @@
 						</div>
 						<div class="catalog__addToCart">
 							<div class="catalog__addToCart-item">
-								<select name="" id="" class="js-newest-select">
+								<select class="js-newest-select">
 									<option value="">300 гр.</option>
 									<option value="">400 гр.</option>
 									<option value="">500 гр.</option>
 								</select>
 							</div>
 							<div class="catalog__addToCart-item rel">
-								<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+								<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 								<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 								<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 							</div>
@@ -288,14 +290,14 @@
 						</div>
 						<div class="catalog__addToCart">
 							<div class="catalog__addToCart-item">
-								<select name="" id="" class="js-newest-select">
+								<select class="js-newest-select">
 									<option value="">300 гр.</option>
 									<option value="">400 гр.</option>
 									<option value="">500 гр.</option>
 								</select>
 							</div>
 							<div class="catalog__addToCart-item rel">
-								<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+								<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 								<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 								<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 							</div>
@@ -325,14 +327,14 @@
 						</div>
 						<div class="catalog__addToCart">
 							<div class="catalog__addToCart-item">
-								<select name="" id="" class="js-newest-select">
+								<select class="js-newest-select">
 									<option value="">300 гр.</option>
 									<option value="">400 гр.</option>
 									<option value="">500 гр.</option>
 								</select>
 							</div>
 							<div class="catalog__addToCart-item rel">
-								<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+								<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 								<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 								<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 							</div>
@@ -362,14 +364,14 @@
 						</div>
 						<div class="catalog__addToCart">
 							<div class="catalog__addToCart-item">
-								<select name="" id="" class="js-newest-select">
+								<select class="js-newest-select">
 									<option value="">300 гр.</option>
 									<option value="">400 гр.</option>
 									<option value="">500 гр.</option>
 								</select>
 							</div>
 							<div class="catalog__addToCart-item rel">
-								<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+								<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 								<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 								<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 							</div>
@@ -399,14 +401,14 @@
 						</div>
 						<div class="catalog__addToCart">
 							<div class="catalog__addToCart-item">
-								<select name="" id="" class="js-newest-select">
+								<select class="js-newest-select">
 									<option value="">300 гр.</option>
 									<option value="">400 гр.</option>
 									<option value="">500 гр.</option>
 								</select>
 							</div>
 							<div class="catalog__addToCart-item rel">
-								<input type="text" name="" id="" class="catalog__addToCart-count" value="3 шт" disabled>
+								<input type="text" class="catalog__addToCart-count" value="3 шт" disabled>
 								<button class="catalog__addToCart-spin catalog__addToCart-less"></button>
 								<button class="catalog__addToCart-spin catalog__addToCart-more"></button>
 							</div>
@@ -451,15 +453,30 @@
 							<ul class="quick-filter__filter-list">
 								<li class="quick-filter__filter-item">
 									<a href="#" class="quick-filter__filter-link">Питомец</a>
-									<div class="quick-filter__sub">
-										...
+									<div class="quick-filter__sub quick-filter__sub--breed">
+										<div class="filter__search">
+											<input type="text" class="filter__search-input" placeholder="Кто ваш питомец">
+											<div class="filter__notFound">
+												Ничего не найдено
+											</div>
+											<div class="filter__search-result" data-simplebar>
+												<div class="filter__search-item">
+													<input type="radio" name="d" id="d1" class="filter__radio">
+													<label for="d1">Собака</label>
+												</div>
+												<div class="filter__search-item">
+													<input type="radio" name="d" id="d2" class="filter__radio">
+													<label for="d2">Кошка</label>
+												</div>
+											</div>
+										</div>
 									</div>
 								</li>
 								<li class="quick-filter__filter-item">
 									<a href="#" class="quick-filter__filter-link">Порода</a>
 									<div class="quick-filter__sub quick-filter__sub--breed">
 										<div class="filter__search">
-											<input type="text" name="" id="" class="filter__search-input" placeholder="Начните вводить породу">
+											<input type="text" class="filter__search-input" placeholder="Начните вводить породу">
 											<div class="filter__notFound">
 												Ничего не найдено
 											</div>
@@ -519,8 +536,19 @@
 								</li>
 								<li class="quick-filter__filter-item">
 									<a href="#" class="quick-filter__filter-link">Возраст</a>
-									<div class="quick-filter__sub">
-										...
+									<div class="quick-filter__sub quick-filter__sub--age">
+										<div class="account__pet-birthday">
+											<span class="sub-age__title">Дата рождения:</span>
+											<input type="tel" class="input-text account__pet-day" value="1">
+											<div class="account__pet-month">
+												<input type="text" class="pet-month__count" value="Январь" disabled>
+												<button class="pet-month__spin pet-month__spin-less"></button>
+												<button class="pet-month__spin pet-month__spin-more"></button>
+											</div>
+											<input type="tel" class="input-text account__pet-year" value="1999">
+											<input type="hidden" class="js-pet-birthday" value="01">
+											<span class="account__pet-age"></span>
+										</div>
 									</div>
 								</li>
 								<li class="quick-filter__filter-item">
@@ -538,43 +566,43 @@
 											<input type="radio" name="a" id="a7" class="quick-filter__radio"><label for="a7" class="category__sub-link">Туалеты и Лотки</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a8" class="quick-filter__radio"><label for="a8" class="category__sub-root">Консервы</a>
+											<input type="radio" name="a" id="a8" class="quick-filter__radio"><label for="a8" class="category__sub-root">Консервы</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a9" class="quick-filter__radio"><label for="a9" class="category__sub-root">Лакомства</a>
+											<input type="radio" name="a" id="a9" class="quick-filter__radio"><label for="a9" class="category__sub-root">Лакомства</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a10" class="quick-filter__radio"><label for="a10" class="category__sub-root">Ветеринарная аптека</a>
+											<input type="radio" name="a" id="a10" class="quick-filter__radio"><label for="a10" class="category__sub-root">Ветеринарная аптека</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a11" class="quick-filter__radio"><label for="a11" class="category__sub-root">Витамины, пищ. добавки</a>
+											<input type="radio" name="a" id="a11" class="quick-filter__radio"><label for="a11" class="category__sub-root">Витамины, пищ. добавки</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a12" class="quick-filter__radio"><label for="a12" class="category__sub-root">Гигиена, пеленки</a>
+											<input type="radio" name="a" id="a12" class="quick-filter__radio"><label for="a12" class="category__sub-root">Гигиена, пеленки</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a13" class="quick-filter__radio"><label for="a13" class="category__sub-root">Груминг, Косметика</a>
+											<input type="radio" name="a" id="a13" class="quick-filter__radio"><label for="a13" class="category__sub-root">Груминг, Косметика</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a14" class="quick-filter__radio"><label for="a14" class="category__sub-root">Игрушки</a>
+											<input type="radio" name="a" id="a14" class="quick-filter__radio"><label for="a14" class="category__sub-root">Игрушки</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a15" class="quick-filter__radio"><label for="a15" class="category__sub-root">Транспортировка, переноски</a>
+											<input type="radio" name="a" id="a15" class="quick-filter__radio"><label for="a15" class="category__sub-root">Транспортировка, переноски</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a16" class="quick-filter__radio"><label for="a16" class="category__sub-root">Миски, контейнеры</a>
+											<input type="radio" name="a" id="a16" class="quick-filter__radio"><label for="a16" class="category__sub-root">Миски, контейнеры</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a17" class="quick-filter__radio"><label for="a17" class="category__sub-root">Одежда</a>
+											<input type="radio" name="a" id="a17" class="quick-filter__radio"><label for="a17" class="category__sub-root">Одежда</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a18" class="quick-filter__radio"><label for="a18" class="category__sub-root">Ошейники, поводки</a>
+											<input type="radio" name="a" id="a18" class="quick-filter__radio"><label for="a18" class="category__sub-root">Ошейники, поводки</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a19" class="quick-filter__radio"><label for="a19" class="category__sub-root">Подарочные сертификаты</a>
+											<input type="radio" name="a" id="a19" class="quick-filter__radio"><label for="a19" class="category__sub-root">Подарочные сертификаты</label>
 										</div>
 										<div class="quick-filter__sub-item">
-											<input type="radio" name="a" id="a20" class="quick-filter__radio"><label for="a20" class="category__sub-root">Рулетки</a>
+											<input type="radio" name="a" id="a20" class="quick-filter__radio"><label for="a20" class="category__sub-root">Рулетки</label>
 										</div>
 									</div>
 								</li>
@@ -704,7 +732,7 @@
 		<p class="modal__title">Закажите обратный звонок</p>
 		<form class="modal__content">
 			<div class="form__row">
-				<input type="text" name="" id="" class="input-text" placeholder="Ваш номер телефона">
+				<input type="text" class="input-text" placeholder="Ваш номер телефона">
 			</div>
 			<div class="modal__btn">
 				<button class="btn">Заказать</button>
@@ -716,13 +744,13 @@
 		<p class="modal__title">Напишите нам</p>
 		<form class="modal__content">
 			<div class="form__row">
-				<input type="text" name="" id="" class="input-text" placeholder="Ваше имя">
+				<input type="text" class="input-text" placeholder="Ваше имя">
 			</div>
 			<div class="form__row">
-				<input type="email" name="" id="" class="input-text" placeholder="Email">
+				<input type="email" class="input-text" placeholder="Email">
 			</div>
 			<div class="form__row">
-				<textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Сообщение"></textarea>
+				<textarea cols="30" rows="10" class="textarea" placeholder="Сообщение"></textarea>
 			</div>
 			<div class="modal__btn">
 				<a href="#" class="modal__clear js-form-clear">Очистить форму</a>
